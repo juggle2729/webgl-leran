@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <canvas width="512" height="256"></canvas>
+  </body>
+  <script>
+    const canvas = document.querySelector("canvas");
+    const ctx = canvas.getContext("2d");
+
+    // ctx.translate(256, 256);
+    // ctx.moveTo(-180, 0);
+    // ctx.lineTo(-100, -100);
+    // ctx.lineTo(20, 0);
+    // ctx.lineWidth = 1;
+    // ctx.strokeStyle = "#000";
+    // ctx.stroke();
+    // ctx.moveTo(236, 256);
+    // ctx.lineTo(336, 156);
+    // ctx.lineTo(436, 256);
+    // ctx.lineWidth = 1;
+    // ctx.strokeStyle = "#000";
+    // ctx.stroke();
+    // ctx.arc(256, 206, 50, 0, 2 * Math.PI);
+    // ctx.stroke();
+
+    ctx.translate(0, canvas.height);
+    ctx.scale(1, -1);
+    ctx.lineCap = "round";
+    function drawBranch(context, v0, length, thickness, dir, bias) {
+      
+    }
+  </script>
+</html>

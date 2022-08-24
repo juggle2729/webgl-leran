@@ -1,0 +1,22 @@
+{
+  "name": "webgl-leran",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juggle2729/webgl-leran.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juggle2729/webgl-leran/issues"
+  },
+  "homepage": "https://github.com/juggle2729/webgl-leran#readme",
+  "dependencies": {
+    "@lts-apaas/render-vue": "^1.0.8"
+  }
+}
